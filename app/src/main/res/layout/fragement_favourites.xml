@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Linear_profile"
+
+
+    android:background="@drawable/download">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:cardCornerRadius="50dp"
+        app:strokeWidth="2dp">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/paymentlogo"
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/m1" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+
+
+        android:text="    Aslam Munir" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="30dp"
+
+
+        android:text="    Pakistan     " />
+
+    <TextView
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
+
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="addidasho@hotmail.com" />
+
+
+    <TextView
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="40dp"
+
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="03364199950" />
+
+
+    <RadioButton
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="50dp"
+
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:checked="true"
+        />
+    <TextView
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="60dp"
+
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="***********" />
+
+
+</LinearLayout>
